@@ -27,3 +27,7 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### Build and Run Docker Container
+docker build -t vue-starter .
+docker run -p 8080:80 vue-starter
